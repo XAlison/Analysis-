@@ -1,0 +1,1172 @@
+2018-02-02 16:13:02.204 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量
+2018-02-02 16:13:02.541 [main] INFO  net.sppan.base.Application - Starting Application on DESKTOP-UD9MKED with PID 140272 (F:\OtherProjectNew\springboot_authority\target\classes started by 123456 in F:\OtherProjectNew\springboot_authority)
+2018-02-02 16:13:02.542 [main] DEBUG net.sppan.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-02-02 16:13:02.542 [main] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2018-02-02 16:13:02.767 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量完成
+2018-02-02 16:13:02.793 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-02-02 16:13:05.358 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2018-02-02 16:13:05.370 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2018-02-02 16:13:05.371 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2018-02-02 16:13:05.372 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\iamwa\AppData\Local\Temp\
+2018-02-02 16:13:05.383 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2018-02-02 16:13:05.392 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2018-02-02 16:13:05.529 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:13:05.529 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:13:05.530 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:13:05.535 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:13:05.535 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:13:05.535 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:13:05.536 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2018-02-02 16:13:05.594 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\iamwa\AppData\Local\Temp
+2018-02-02 16:13:05.595 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\iamwa\AppData\Local\Temp\.ehcache-diskstore.lock
+2018-02-02 16:13:05.595 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2018-02-02 16:13:05.596 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:13:05.603 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\iamwa\AppData\Local\Temp\resource%0043ache.index
+2018-02-02 16:13:05.603 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:13:05.647 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2018-02-02 16:13:05.648 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2018-02-02 16:13:05.649 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2018-02-02 16:13:05.649 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2018-02-02 16:13:05.650 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2018-02-02 16:13:05.662 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2018-02-02 16:13:05.663 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2018-02-02 16:13:05.664 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2018-02-02 16:13:05.665 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2018-02-02 16:13:05.665 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2018-02-02 16:13:05.666 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2018-02-02 16:13:05.666 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2018-02-02 16:13:05.666 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2018-02-02 16:13:05.671 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2018-02-02 16:13:05.671 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2018-02-02 16:13:05.671 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2018-02-02 16:13:06.444 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-02-02 16:13:07.182 [main] DEBUG org.hibernate.SQL - alter table tb_resource drop foreign key FKf5ra2gn0xedeida2op8097sr5
+2018-02-02 16:13:07.281 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table tb_resource drop foreign key FKf5ra2gn0xedeida2op8097sr5
+2018-02-02 16:13:07.281 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - Table 'base.tb_resource' doesn't exist
+2018-02-02 16:13:07.282 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK868kc8iic48ilv5npa80ut6qo
+2018-02-02 16:13:07.282 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table tb_role_resource drop foreign key FK868kc8iic48ilv5npa80ut6qo
+2018-02-02 16:13:07.282 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - Table 'base.tb_role_resource' doesn't exist
+2018-02-02 16:13:07.282 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK7ffc7h6obqxflhj1aq1mk20jk
+2018-02-02 16:13:07.283 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table tb_role_resource drop foreign key FK7ffc7h6obqxflhj1aq1mk20jk
+2018-02-02 16:13:07.283 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - Table 'base.tb_role_resource' doesn't exist
+2018-02-02 16:13:07.283 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FKea2ootw6b6bb0xt3ptl28bymv
+2018-02-02 16:13:07.284 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table tb_user_role drop foreign key FKea2ootw6b6bb0xt3ptl28bymv
+2018-02-02 16:13:07.284 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - Table 'base.tb_user_role' doesn't exist
+2018-02-02 16:13:07.284 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FK7vn3h53d0tqdimm8cp45gc0kl
+2018-02-02 16:13:07.284 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table tb_user_role drop foreign key FK7vn3h53d0tqdimm8cp45gc0kl
+2018-02-02 16:13:07.285 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - Table 'base.tb_user_role' doesn't exist
+2018-02-02 16:13:07.285 [main] DEBUG org.hibernate.SQL - drop table if exists tb_resource
+2018-02-02 16:13:07.286 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role
+2018-02-02 16:13:07.288 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role_resource
+2018-02-02 16:13:07.289 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user
+2018-02-02 16:13:07.290 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user_role
+2018-02-02 16:13:07.291 [main] DEBUG org.hibernate.SQL - create table tb_resource (id integer not null auto_increment, create_time datetime, description varchar(255), icon varchar(255), is_hide integer, level integer, name varchar(255), sort integer, source_key varchar(255), source_url varchar(255), type integer, update_time datetime, parent_id integer, primary key (id))
+2018-02-02 16:13:07.711 [main] DEBUG org.hibernate.SQL - create table tb_role (id integer not null auto_increment, create_time datetime, description varchar(255), name varchar(255), role_key varchar(255), status integer, update_time datetime, primary key (id))
+2018-02-02 16:13:08.021 [main] DEBUG org.hibernate.SQL - create table tb_role_resource (role_id integer not null, resource_id integer not null, primary key (role_id, resource_id))
+2018-02-02 16:13:08.108 [main] DEBUG org.hibernate.SQL - create table tb_user (id integer not null auto_increment, address varchar(255), birthday datetime, create_time datetime, delete_status integer, description varchar(255), email varchar(255), locked integer, nick_name varchar(255), password varchar(255), sex integer, telephone varchar(255), update_time datetime, user_name varchar(255), primary key (id))
+2018-02-02 16:13:08.194 [main] DEBUG org.hibernate.SQL - create table tb_user_role (user_id integer not null, role_id integer not null, primary key (user_id, role_id))
+2018-02-02 16:13:08.306 [main] DEBUG org.hibernate.SQL - alter table tb_resource add constraint FKf5ra2gn0xedeida2op8097sr5 foreign key (parent_id) references tb_resource (id)
+2018-02-02 16:13:08.741 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK868kc8iic48ilv5npa80ut6qo foreign key (resource_id) references tb_resource (id)
+2018-02-02 16:13:08.983 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK7ffc7h6obqxflhj1aq1mk20jk foreign key (role_id) references tb_role (id)
+2018-02-02 16:13:09.205 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FKea2ootw6b6bb0xt3ptl28bymv foreign key (role_id) references tb_role (id)
+2018-02-02 16:13:09.530 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FK7vn3h53d0tqdimm8cp45gc0kl foreign key (user_id) references tb_user (id)
+2018-02-02 16:13:11.869 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-02-02 16:13:11.870 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-02-02 16:13:12.066 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-02-02 16:13:15.305 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用刷新
+2018-02-02 16:13:15.325 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:13:15.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-80]
+2018-02-02 16:13:15.368 [main] ERROR org.apache.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler [http-nio-80]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+2018-02-02 16:13:15.369 [main] ERROR org.apache.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	... 14 common frames omitted
+2018-02-02 16:13:15.380 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:13:15.380 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2018-02-02 16:13:15.388 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-02-02 16:13:15.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2018-02-02 16:13:15.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-80"]
+2018-02-02 16:13:15.395 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2018-02-02 16:13:15.406 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用关闭
+2018-02-02 16:13:15.425 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-02-02 16:14:45.636 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量
+2018-02-02 16:14:45.716 [main] INFO  net.sppan.base.Application - Starting Application on DESKTOP-UD9MKED with PID 137736 (F:\OtherProjectNew\springboot_authority\target\classes started by 123456 in F:\OtherProjectNew\springboot_authority)
+2018-02-02 16:14:45.717 [main] DEBUG net.sppan.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-02-02 16:14:45.717 [main] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2018-02-02 16:14:45.780 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量完成
+2018-02-02 16:14:45.874 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-02-02 16:14:47.231 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2018-02-02 16:14:47.244 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2018-02-02 16:14:47.244 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2018-02-02 16:14:47.245 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\iamwa\AppData\Local\Temp\
+2018-02-02 16:14:47.256 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2018-02-02 16:14:47.264 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2018-02-02 16:14:47.394 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:14:47.394 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:14:47.394 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:14:47.400 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:14:47.400 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:14:47.400 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:14:47.401 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2018-02-02 16:14:47.409 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\iamwa\AppData\Local\Temp
+2018-02-02 16:14:47.409 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\iamwa\AppData\Local\Temp\.ehcache-diskstore.lock
+2018-02-02 16:14:47.410 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2018-02-02 16:14:47.410 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:14:47.416 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\iamwa\AppData\Local\Temp\resource%0043ache.index
+2018-02-02 16:14:47.417 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:14:47.458 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2018-02-02 16:14:47.459 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2018-02-02 16:14:47.459 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2018-02-02 16:14:47.459 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2018-02-02 16:14:47.460 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2018-02-02 16:14:47.470 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2018-02-02 16:14:47.471 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2018-02-02 16:14:47.471 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2018-02-02 16:14:47.471 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2018-02-02 16:14:47.472 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2018-02-02 16:14:47.472 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2018-02-02 16:14:47.472 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2018-02-02 16:14:47.472 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2018-02-02 16:14:47.477 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2018-02-02 16:14:47.477 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2018-02-02 16:14:47.477 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2018-02-02 16:14:48.117 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-02-02 16:14:48.855 [main] DEBUG org.hibernate.SQL - alter table tb_resource drop foreign key FKf5ra2gn0xedeida2op8097sr5
+2018-02-02 16:14:48.922 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK868kc8iic48ilv5npa80ut6qo
+2018-02-02 16:14:48.962 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK7ffc7h6obqxflhj1aq1mk20jk
+2018-02-02 16:14:48.988 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FKea2ootw6b6bb0xt3ptl28bymv
+2018-02-02 16:14:49.015 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FK7vn3h53d0tqdimm8cp45gc0kl
+2018-02-02 16:14:49.041 [main] DEBUG org.hibernate.SQL - drop table if exists tb_resource
+2018-02-02 16:14:49.094 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role
+2018-02-02 16:14:49.147 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role_resource
+2018-02-02 16:14:49.187 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user
+2018-02-02 16:14:49.251 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user_role
+2018-02-02 16:14:49.291 [main] DEBUG org.hibernate.SQL - create table tb_resource (id integer not null auto_increment, create_time datetime, description varchar(255), icon varchar(255), is_hide integer, level integer, name varchar(255), sort integer, source_key varchar(255), source_url varchar(255), type integer, update_time datetime, parent_id integer, primary key (id))
+2018-02-02 16:14:49.384 [main] DEBUG org.hibernate.SQL - create table tb_role (id integer not null auto_increment, create_time datetime, description varchar(255), name varchar(255), role_key varchar(255), status integer, update_time datetime, primary key (id))
+2018-02-02 16:14:49.477 [main] DEBUG org.hibernate.SQL - create table tb_role_resource (role_id integer not null, resource_id integer not null, primary key (role_id, resource_id))
+2018-02-02 16:14:49.569 [main] DEBUG org.hibernate.SQL - create table tb_user (id integer not null auto_increment, address varchar(255), birthday datetime, create_time datetime, delete_status integer, description varchar(255), email varchar(255), locked integer, nick_name varchar(255), password varchar(255), sex integer, telephone varchar(255), update_time datetime, user_name varchar(255), primary key (id))
+2018-02-02 16:14:49.662 [main] DEBUG org.hibernate.SQL - create table tb_user_role (user_id integer not null, role_id integer not null, primary key (user_id, role_id))
+2018-02-02 16:14:49.764 [main] DEBUG org.hibernate.SQL - alter table tb_resource add constraint FKf5ra2gn0xedeida2op8097sr5 foreign key (parent_id) references tb_resource (id)
+2018-02-02 16:14:50.007 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK868kc8iic48ilv5npa80ut6qo foreign key (resource_id) references tb_resource (id)
+2018-02-02 16:14:50.245 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK7ffc7h6obqxflhj1aq1mk20jk foreign key (role_id) references tb_role (id)
+2018-02-02 16:14:50.469 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FKea2ootw6b6bb0xt3ptl28bymv foreign key (role_id) references tb_role (id)
+2018-02-02 16:14:50.694 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FK7vn3h53d0tqdimm8cp45gc0kl foreign key (user_id) references tb_user (id)
+2018-02-02 16:14:52.280 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-02-02 16:14:52.282 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-02-02 16:14:52.391 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-02-02 16:14:55.195 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用刷新
+2018-02-02 16:14:55.203 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:14:55.213 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-80]
+2018-02-02 16:14:55.218 [main] ERROR org.apache.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler [http-nio-80]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+2018-02-02 16:14:55.219 [main] ERROR org.apache.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	... 14 common frames omitted
+2018-02-02 16:14:55.225 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:14:55.225 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2018-02-02 16:14:55.232 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-02-02 16:14:55.233 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2018-02-02 16:14:55.233 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-80"]
+2018-02-02 16:14:55.239 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2018-02-02 16:14:55.240 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用关闭
+2018-02-02 16:14:55.246 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-02-02 16:16:11.919 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - ��ʼ����������
+2018-02-02 16:16:12.604 [main] INFO  net.sppan.base.Application - Starting Application on DESKTOP-UD9MKED with PID 77496 (F:\OtherProjectNew\springboot_authority\target\classes started by 123456 in F:\OtherProjectNew\springboot_authority)
+2018-02-02 16:16:12.650 [main] DEBUG net.sppan.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-02-02 16:16:12.736 [main] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2018-02-02 16:16:12.863 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - ��ʼ�������������
+2018-02-02 16:16:12.894 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-02-02 16:16:16.576 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2018-02-02 16:16:16.596 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2018-02-02 16:16:16.597 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2018-02-02 16:16:16.599 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\iamwa\AppData\Local\Temp\
+2018-02-02 16:16:16.614 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2018-02-02 16:16:16.627 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2018-02-02 16:16:16.768 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:16:16.768 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:16:16.769 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:16:16.780 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:16:16.780 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:16:16.780 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:16:16.781 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2018-02-02 16:16:16.794 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\iamwa\AppData\Local\Temp
+2018-02-02 16:16:16.795 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\iamwa\AppData\Local\Temp\.ehcache-diskstore.lock
+2018-02-02 16:16:16.796 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2018-02-02 16:16:16.796 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:16:16.802 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\iamwa\AppData\Local\Temp\resource%0043ache.index
+2018-02-02 16:16:16.804 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:16:16.857 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2018-02-02 16:16:16.858 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2018-02-02 16:16:16.859 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2018-02-02 16:16:16.859 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2018-02-02 16:16:16.860 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2018-02-02 16:16:16.878 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2018-02-02 16:16:16.906 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2018-02-02 16:16:16.907 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2018-02-02 16:16:16.909 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2018-02-02 16:16:16.913 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2018-02-02 16:16:16.914 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2018-02-02 16:16:16.915 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2018-02-02 16:16:16.916 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2018-02-02 16:16:16.920 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2018-02-02 16:16:16.921 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2018-02-02 16:16:16.921 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2018-02-02 16:16:17.705 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-02-02 16:16:18.719 [main] DEBUG org.hibernate.SQL - alter table tb_resource drop foreign key FKf5ra2gn0xedeida2op8097sr5
+2018-02-02 16:16:18.764 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK868kc8iic48ilv5npa80ut6qo
+2018-02-02 16:16:18.794 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK7ffc7h6obqxflhj1aq1mk20jk
+2018-02-02 16:16:18.819 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FKea2ootw6b6bb0xt3ptl28bymv
+2018-02-02 16:16:18.856 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FK7vn3h53d0tqdimm8cp45gc0kl
+2018-02-02 16:16:18.881 [main] DEBUG org.hibernate.SQL - drop table if exists tb_resource
+2018-02-02 16:16:18.917 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role
+2018-02-02 16:16:18.955 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role_resource
+2018-02-02 16:16:19.000 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user
+2018-02-02 16:16:19.036 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user_role
+2018-02-02 16:16:19.073 [main] DEBUG org.hibernate.SQL - create table tb_resource (id integer not null auto_increment, create_time datetime, description varchar(255), icon varchar(255), is_hide integer, level integer, name varchar(255), sort integer, source_key varchar(255), source_url varchar(255), type integer, update_time datetime, parent_id integer, primary key (id))
+2018-02-02 16:16:19.185 [main] DEBUG org.hibernate.SQL - create table tb_role (id integer not null auto_increment, create_time datetime, description varchar(255), name varchar(255), role_key varchar(255), status integer, update_time datetime, primary key (id))
+2018-02-02 16:16:19.279 [main] DEBUG org.hibernate.SQL - create table tb_role_resource (role_id integer not null, resource_id integer not null, primary key (role_id, resource_id))
+2018-02-02 16:16:19.365 [main] DEBUG org.hibernate.SQL - create table tb_user (id integer not null auto_increment, address varchar(255), birthday datetime, create_time datetime, delete_status integer, description varchar(255), email varchar(255), locked integer, nick_name varchar(255), password varchar(255), sex integer, telephone varchar(255), update_time datetime, user_name varchar(255), primary key (id))
+2018-02-02 16:16:19.452 [main] DEBUG org.hibernate.SQL - create table tb_user_role (user_id integer not null, role_id integer not null, primary key (user_id, role_id))
+2018-02-02 16:16:19.538 [main] DEBUG org.hibernate.SQL - alter table tb_resource add constraint FKf5ra2gn0xedeida2op8097sr5 foreign key (parent_id) references tb_resource (id)
+2018-02-02 16:16:19.765 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK868kc8iic48ilv5npa80ut6qo foreign key (resource_id) references tb_resource (id)
+2018-02-02 16:16:20.055 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK7ffc7h6obqxflhj1aq1mk20jk foreign key (role_id) references tb_role (id)
+2018-02-02 16:16:20.305 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FKea2ootw6b6bb0xt3ptl28bymv foreign key (role_id) references tb_role (id)
+2018-02-02 16:16:20.538 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FK7vn3h53d0tqdimm8cp45gc0kl foreign key (user_id) references tb_user (id)
+2018-02-02 16:16:22.389 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-02-02 16:16:22.527 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-02-02 16:16:22.615 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-02-02 16:16:24.524 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - Ӧ��ˢ��
+2018-02-02 16:16:24.541 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:16:24.557 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-80]
+2018-02-02 16:16:24.571 [main] ERROR org.apache.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler [http-nio-80]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+2018-02-02 16:16:24.573 [main] ERROR org.apache.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	... 14 common frames omitted
+2018-02-02 16:16:24.588 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:16:24.594 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2018-02-02 16:16:24.618 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-02-02 16:16:24.620 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2018-02-02 16:16:24.621 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-80"]
+2018-02-02 16:16:24.636 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2018-02-02 16:16:24.641 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - Ӧ�ùر�
+2018-02-02 16:16:24.659 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-02-02 16:17:31.029 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量
+2018-02-02 16:17:31.114 [main] INFO  net.sppan.base.Application - Starting Application on DESKTOP-UD9MKED with PID 90488 (F:\OtherProjectNew\springboot_authority\target\classes started by 123456 in F:\OtherProjectNew\springboot_authority)
+2018-02-02 16:17:31.114 [main] DEBUG net.sppan.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-02-02 16:17:31.114 [main] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2018-02-02 16:17:31.174 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量完成
+2018-02-02 16:17:31.285 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-02-02 16:17:33.262 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2018-02-02 16:17:33.274 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2018-02-02 16:17:33.274 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2018-02-02 16:17:33.275 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\iamwa\AppData\Local\Temp\
+2018-02-02 16:17:33.287 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2018-02-02 16:17:33.296 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2018-02-02 16:17:33.436 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:17:33.436 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:17:33.437 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:17:33.443 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:17:33.443 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:17:33.443 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:17:33.444 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2018-02-02 16:17:33.454 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\iamwa\AppData\Local\Temp
+2018-02-02 16:17:33.454 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\iamwa\AppData\Local\Temp\.ehcache-diskstore.lock
+2018-02-02 16:17:33.455 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2018-02-02 16:17:33.456 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:17:33.461 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\iamwa\AppData\Local\Temp\resource%0043ache.index
+2018-02-02 16:17:33.462 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:17:33.507 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2018-02-02 16:17:33.508 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2018-02-02 16:17:33.510 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2018-02-02 16:17:33.510 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2018-02-02 16:17:33.510 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2018-02-02 16:17:33.520 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2018-02-02 16:17:33.522 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2018-02-02 16:17:33.522 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2018-02-02 16:17:33.522 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2018-02-02 16:17:33.523 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2018-02-02 16:17:33.523 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2018-02-02 16:17:33.523 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2018-02-02 16:17:33.524 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2018-02-02 16:17:33.529 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2018-02-02 16:17:33.529 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2018-02-02 16:17:33.529 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2018-02-02 16:17:34.200 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-02-02 16:17:34.958 [main] DEBUG org.hibernate.SQL - alter table tb_resource drop foreign key FKf5ra2gn0xedeida2op8097sr5
+2018-02-02 16:17:35.091 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK868kc8iic48ilv5npa80ut6qo
+2018-02-02 16:17:35.123 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK7ffc7h6obqxflhj1aq1mk20jk
+2018-02-02 16:17:35.149 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FKea2ootw6b6bb0xt3ptl28bymv
+2018-02-02 16:17:35.176 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FK7vn3h53d0tqdimm8cp45gc0kl
+2018-02-02 16:17:35.202 [main] DEBUG org.hibernate.SQL - drop table if exists tb_resource
+2018-02-02 16:17:35.255 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role
+2018-02-02 16:17:35.295 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role_resource
+2018-02-02 16:17:35.335 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user
+2018-02-02 16:17:35.374 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user_role
+2018-02-02 16:17:35.413 [main] DEBUG org.hibernate.SQL - create table tb_resource (id integer not null auto_increment, create_time datetime, description varchar(255), icon varchar(255), is_hide integer, level integer, name varchar(255), sort integer, source_key varchar(255), source_url varchar(255), type integer, update_time datetime, parent_id integer, primary key (id))
+2018-02-02 16:17:35.499 [main] DEBUG org.hibernate.SQL - create table tb_role (id integer not null auto_increment, create_time datetime, description varchar(255), name varchar(255), role_key varchar(255), status integer, update_time datetime, primary key (id))
+2018-02-02 16:17:35.586 [main] DEBUG org.hibernate.SQL - create table tb_role_resource (role_id integer not null, resource_id integer not null, primary key (role_id, resource_id))
+2018-02-02 16:17:35.672 [main] DEBUG org.hibernate.SQL - create table tb_user (id integer not null auto_increment, address varchar(255), birthday datetime, create_time datetime, delete_status integer, description varchar(255), email varchar(255), locked integer, nick_name varchar(255), password varchar(255), sex integer, telephone varchar(255), update_time datetime, user_name varchar(255), primary key (id))
+2018-02-02 16:17:35.772 [main] DEBUG org.hibernate.SQL - create table tb_user_role (user_id integer not null, role_id integer not null, primary key (user_id, role_id))
+2018-02-02 16:17:35.856 [main] DEBUG org.hibernate.SQL - alter table tb_resource add constraint FKf5ra2gn0xedeida2op8097sr5 foreign key (parent_id) references tb_resource (id)
+2018-02-02 16:17:36.067 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK868kc8iic48ilv5npa80ut6qo foreign key (resource_id) references tb_resource (id)
+2018-02-02 16:17:36.277 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK7ffc7h6obqxflhj1aq1mk20jk foreign key (role_id) references tb_role (id)
+2018-02-02 16:17:37.327 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FKea2ootw6b6bb0xt3ptl28bymv foreign key (role_id) references tb_role (id)
+2018-02-02 16:17:37.537 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FK7vn3h53d0tqdimm8cp45gc0kl foreign key (user_id) references tb_user (id)
+2018-02-02 16:17:38.700 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-02-02 16:17:38.701 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-02-02 16:17:38.851 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-02-02 16:17:41.721 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用刷新
+2018-02-02 16:17:41.730 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:17:41.739 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-80]
+2018-02-02 16:17:41.745 [main] ERROR org.apache.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler [http-nio-80]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+2018-02-02 16:17:41.746 [main] ERROR org.apache.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	... 14 common frames omitted
+2018-02-02 16:17:41.753 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:17:41.753 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2018-02-02 16:17:41.761 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-02-02 16:17:41.761 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2018-02-02 16:17:41.761 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-80"]
+2018-02-02 16:17:41.768 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2018-02-02 16:17:41.769 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用关闭
+2018-02-02 16:17:41.777 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-02-02 16:18:36.591 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - ��ʼ����������
+2018-02-02 16:18:37.101 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-02-02 16:18:37.330 [main] INFO  net.sppan.base.Application - Starting Application on DESKTOP-UD9MKED with PID 137188 (F:\OtherProjectNew\springboot_authority\target\classes started by 123456 in F:\OtherProjectNew\springboot_authority)
+2018-02-02 16:18:37.335 [main] DEBUG net.sppan.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-02-02 16:18:37.335 [main] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2018-02-02 16:18:37.419 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - ��ʼ�������������
+2018-02-02 16:18:39.595 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2018-02-02 16:18:39.668 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2018-02-02 16:18:39.688 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2018-02-02 16:18:39.692 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\iamwa\AppData\Local\Temp\
+2018-02-02 16:18:39.730 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2018-02-02 16:18:39.744 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2018-02-02 16:18:39.932 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:18:39.939 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:18:39.940 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:18:39.953 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:18:39.955 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:18:39.955 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:18:39.959 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2018-02-02 16:18:39.984 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\iamwa\AppData\Local\Temp
+2018-02-02 16:18:39.986 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\iamwa\AppData\Local\Temp\.ehcache-diskstore.lock
+2018-02-02 16:18:39.988 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2018-02-02 16:18:39.989 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:18:39.998 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\iamwa\AppData\Local\Temp\resource%0043ache.index
+2018-02-02 16:18:40.000 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:18:40.063 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2018-02-02 16:18:40.065 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2018-02-02 16:18:40.066 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2018-02-02 16:18:40.070 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2018-02-02 16:18:40.071 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2018-02-02 16:18:40.090 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2018-02-02 16:18:40.096 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2018-02-02 16:18:40.097 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2018-02-02 16:18:40.099 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2018-02-02 16:18:40.100 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2018-02-02 16:18:40.100 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2018-02-02 16:18:40.101 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2018-02-02 16:18:40.102 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2018-02-02 16:18:40.110 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2018-02-02 16:18:40.114 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2018-02-02 16:18:40.115 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2018-02-02 16:18:40.974 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-02-02 16:18:41.783 [main] DEBUG org.hibernate.SQL - alter table tb_resource drop foreign key FKf5ra2gn0xedeida2op8097sr5
+2018-02-02 16:18:41.815 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK868kc8iic48ilv5npa80ut6qo
+2018-02-02 16:18:41.845 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK7ffc7h6obqxflhj1aq1mk20jk
+2018-02-02 16:18:41.870 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FKea2ootw6b6bb0xt3ptl28bymv
+2018-02-02 16:18:41.903 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FK7vn3h53d0tqdimm8cp45gc0kl
+2018-02-02 16:18:41.928 [main] DEBUG org.hibernate.SQL - drop table if exists tb_resource
+2018-02-02 16:18:41.972 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role
+2018-02-02 16:18:42.010 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role_resource
+2018-02-02 16:18:42.060 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user
+2018-02-02 16:18:42.107 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user_role
+2018-02-02 16:18:42.156 [main] DEBUG org.hibernate.SQL - create table tb_resource (id integer not null auto_increment, create_time datetime, description varchar(255), icon varchar(255), is_hide integer, level integer, name varchar(255), sort integer, source_key varchar(255), source_url varchar(255), type integer, update_time datetime, parent_id integer, primary key (id))
+2018-02-02 16:18:42.256 [main] DEBUG org.hibernate.SQL - create table tb_role (id integer not null auto_increment, create_time datetime, description varchar(255), name varchar(255), role_key varchar(255), status integer, update_time datetime, primary key (id))
+2018-02-02 16:18:42.407 [main] DEBUG org.hibernate.SQL - create table tb_role_resource (role_id integer not null, resource_id integer not null, primary key (role_id, resource_id))
+2018-02-02 16:18:42.498 [main] DEBUG org.hibernate.SQL - create table tb_user (id integer not null auto_increment, address varchar(255), birthday datetime, create_time datetime, delete_status integer, description varchar(255), email varchar(255), locked integer, nick_name varchar(255), password varchar(255), sex integer, telephone varchar(255), update_time datetime, user_name varchar(255), primary key (id))
+2018-02-02 16:18:42.592 [main] DEBUG org.hibernate.SQL - create table tb_user_role (user_id integer not null, role_id integer not null, primary key (user_id, role_id))
+2018-02-02 16:18:42.697 [main] DEBUG org.hibernate.SQL - alter table tb_resource add constraint FKf5ra2gn0xedeida2op8097sr5 foreign key (parent_id) references tb_resource (id)
+2018-02-02 16:18:42.960 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK868kc8iic48ilv5npa80ut6qo foreign key (resource_id) references tb_resource (id)
+2018-02-02 16:18:43.186 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK7ffc7h6obqxflhj1aq1mk20jk foreign key (role_id) references tb_role (id)
+2018-02-02 16:18:43.411 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FKea2ootw6b6bb0xt3ptl28bymv foreign key (role_id) references tb_role (id)
+2018-02-02 16:18:43.688 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FK7vn3h53d0tqdimm8cp45gc0kl foreign key (user_id) references tb_user (id)
+2018-02-02 16:18:45.049 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-02-02 16:18:45.051 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-02-02 16:18:45.175 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-02-02 16:18:47.375 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - Ӧ��ˢ��
+2018-02-02 16:18:47.389 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:18:47.399 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-80]
+2018-02-02 16:18:47.410 [main] ERROR org.apache.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler [http-nio-80]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+2018-02-02 16:18:47.411 [main] ERROR org.apache.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	... 14 common frames omitted
+2018-02-02 16:18:47.427 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:18:47.428 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2018-02-02 16:18:47.439 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-02-02 16:18:47.439 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2018-02-02 16:18:47.439 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-80"]
+2018-02-02 16:18:47.448 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2018-02-02 16:18:47.450 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - Ӧ�ùر�
+2018-02-02 16:18:47.469 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-02-02 16:20:48.476 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量
+2018-02-02 16:20:48.542 [main] INFO  net.sppan.base.Application - Starting Application on DESKTOP-UD9MKED with PID 129596 (F:\OtherProjectNew\springboot_authority\target\classes started by 123456 in F:\OtherProjectNew\springboot_authority)
+2018-02-02 16:20:48.543 [main] DEBUG net.sppan.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-02-02 16:20:48.543 [main] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2018-02-02 16:20:48.605 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量完成
+2018-02-02 16:20:48.717 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-02-02 16:20:50.000 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2018-02-02 16:20:50.015 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2018-02-02 16:20:50.015 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2018-02-02 16:20:50.016 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\iamwa\AppData\Local\Temp\
+2018-02-02 16:20:50.030 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2018-02-02 16:20:50.041 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2018-02-02 16:20:50.185 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:20:50.185 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:20:50.185 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:20:50.189 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:20:50.189 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:20:50.189 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:20:50.190 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2018-02-02 16:20:50.198 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\iamwa\AppData\Local\Temp
+2018-02-02 16:20:50.198 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\iamwa\AppData\Local\Temp\.ehcache-diskstore.lock
+2018-02-02 16:20:50.199 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2018-02-02 16:20:50.199 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:20:50.204 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\iamwa\AppData\Local\Temp\resource%0043ache.index
+2018-02-02 16:20:50.205 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:20:50.236 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2018-02-02 16:20:50.236 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2018-02-02 16:20:50.237 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2018-02-02 16:20:50.237 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2018-02-02 16:20:50.237 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2018-02-02 16:20:50.246 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2018-02-02 16:20:50.247 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2018-02-02 16:20:50.247 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2018-02-02 16:20:50.248 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2018-02-02 16:20:50.248 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2018-02-02 16:20:50.248 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2018-02-02 16:20:50.249 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2018-02-02 16:20:50.249 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2018-02-02 16:20:50.253 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2018-02-02 16:20:50.253 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2018-02-02 16:20:50.253 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2018-02-02 16:20:50.801 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-02-02 16:20:51.386 [main] DEBUG org.hibernate.SQL - alter table tb_resource drop foreign key FKf5ra2gn0xedeida2op8097sr5
+2018-02-02 16:20:51.435 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK868kc8iic48ilv5npa80ut6qo
+2018-02-02 16:20:51.473 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK7ffc7h6obqxflhj1aq1mk20jk
+2018-02-02 16:20:51.523 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FKea2ootw6b6bb0xt3ptl28bymv
+2018-02-02 16:20:51.564 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FK7vn3h53d0tqdimm8cp45gc0kl
+2018-02-02 16:20:51.589 [main] DEBUG org.hibernate.SQL - drop table if exists tb_resource
+2018-02-02 16:20:51.625 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role
+2018-02-02 16:20:51.666 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role_resource
+2018-02-02 16:20:51.706 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user
+2018-02-02 16:20:51.747 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user_role
+2018-02-02 16:20:51.788 [main] DEBUG org.hibernate.SQL - create table tb_resource (id integer not null auto_increment, create_time datetime, description varchar(255), icon varchar(255), is_hide integer, level integer, name varchar(255), sort integer, source_key varchar(255), source_url varchar(255), type integer, update_time datetime, parent_id integer, primary key (id))
+2018-02-02 16:20:51.900 [main] DEBUG org.hibernate.SQL - create table tb_role (id integer not null auto_increment, create_time datetime, description varchar(255), name varchar(255), role_key varchar(255), status integer, update_time datetime, primary key (id))
+2018-02-02 16:20:52.034 [main] DEBUG org.hibernate.SQL - create table tb_role_resource (role_id integer not null, resource_id integer not null, primary key (role_id, resource_id))
+2018-02-02 16:20:52.142 [main] DEBUG org.hibernate.SQL - create table tb_user (id integer not null auto_increment, address varchar(255), birthday datetime, create_time datetime, delete_status integer, description varchar(255), email varchar(255), locked integer, nick_name varchar(255), password varchar(255), sex integer, telephone varchar(255), update_time datetime, user_name varchar(255), primary key (id))
+2018-02-02 16:20:52.238 [main] DEBUG org.hibernate.SQL - create table tb_user_role (user_id integer not null, role_id integer not null, primary key (user_id, role_id))
+2018-02-02 16:20:52.333 [main] DEBUG org.hibernate.SQL - alter table tb_resource add constraint FKf5ra2gn0xedeida2op8097sr5 foreign key (parent_id) references tb_resource (id)
+2018-02-02 16:20:52.563 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK868kc8iic48ilv5npa80ut6qo foreign key (resource_id) references tb_resource (id)
+2018-02-02 16:20:52.796 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK7ffc7h6obqxflhj1aq1mk20jk foreign key (role_id) references tb_role (id)
+2018-02-02 16:20:53.088 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FKea2ootw6b6bb0xt3ptl28bymv foreign key (role_id) references tb_role (id)
+2018-02-02 16:20:53.304 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FK7vn3h53d0tqdimm8cp45gc0kl foreign key (user_id) references tb_user (id)
+2018-02-02 16:20:54.187 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-02-02 16:20:54.188 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-02-02 16:20:54.268 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-02-02 16:20:55.625 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用刷新
+2018-02-02 16:20:55.633 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:20:55.640 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-80]
+2018-02-02 16:20:55.644 [main] ERROR org.apache.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler [http-nio-80]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+2018-02-02 16:20:55.645 [main] ERROR org.apache.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	... 14 common frames omitted
+2018-02-02 16:20:55.655 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:20:55.655 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2018-02-02 16:20:55.661 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-02-02 16:20:55.662 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2018-02-02 16:20:55.662 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-80"]
+2018-02-02 16:20:55.668 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2018-02-02 16:20:55.669 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用关闭
+2018-02-02 16:20:55.675 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-02-02 16:21:31.053 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量
+2018-02-02 16:21:31.215 [main] INFO  net.sppan.base.Application - Starting Application on DESKTOP-UD9MKED with PID 130112 (F:\OtherProjectNew\springboot_authority\target\classes started by 123456 in F:\OtherProjectNew\springboot_authority)
+2018-02-02 16:21:31.216 [main] DEBUG net.sppan.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-02-02 16:21:31.216 [main] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2018-02-02 16:21:31.361 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量完成
+2018-02-02 16:21:31.471 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-02-02 16:21:32.814 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2018-02-02 16:21:32.825 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2018-02-02 16:21:32.826 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2018-02-02 16:21:32.826 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\iamwa\AppData\Local\Temp\
+2018-02-02 16:21:32.836 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2018-02-02 16:21:32.844 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2018-02-02 16:21:32.979 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:21:32.980 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:21:32.980 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:21:32.986 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:21:32.987 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:21:32.987 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:21:32.987 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2018-02-02 16:21:32.999 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\iamwa\AppData\Local\Temp
+2018-02-02 16:21:32.999 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\iamwa\AppData\Local\Temp\.ehcache-diskstore.lock
+2018-02-02 16:21:33.000 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2018-02-02 16:21:33.001 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:21:33.008 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\iamwa\AppData\Local\Temp\resource%0043ache.index
+2018-02-02 16:21:33.009 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:21:33.047 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2018-02-02 16:21:33.048 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2018-02-02 16:21:33.048 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2018-02-02 16:21:33.049 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2018-02-02 16:21:33.049 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2018-02-02 16:21:33.061 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2018-02-02 16:21:33.061 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2018-02-02 16:21:33.061 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2018-02-02 16:21:33.062 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2018-02-02 16:21:33.063 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2018-02-02 16:21:33.063 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2018-02-02 16:21:33.063 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2018-02-02 16:21:33.063 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2018-02-02 16:21:33.067 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2018-02-02 16:21:33.067 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2018-02-02 16:21:33.067 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2018-02-02 16:21:33.613 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-02-02 16:21:34.194 [main] DEBUG org.hibernate.SQL - alter table tb_resource drop foreign key FKf5ra2gn0xedeida2op8097sr5
+2018-02-02 16:21:34.232 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK868kc8iic48ilv5npa80ut6qo
+2018-02-02 16:21:34.263 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK7ffc7h6obqxflhj1aq1mk20jk
+2018-02-02 16:21:34.288 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FKea2ootw6b6bb0xt3ptl28bymv
+2018-02-02 16:21:34.314 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FK7vn3h53d0tqdimm8cp45gc0kl
+2018-02-02 16:21:34.339 [main] DEBUG org.hibernate.SQL - drop table if exists tb_resource
+2018-02-02 16:21:34.376 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role
+2018-02-02 16:21:34.414 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role_resource
+2018-02-02 16:21:34.453 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user
+2018-02-02 16:21:34.490 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user_role
+2018-02-02 16:21:34.529 [main] DEBUG org.hibernate.SQL - create table tb_resource (id integer not null auto_increment, create_time datetime, description varchar(255), icon varchar(255), is_hide integer, level integer, name varchar(255), sort integer, source_key varchar(255), source_url varchar(255), type integer, update_time datetime, parent_id integer, primary key (id))
+2018-02-02 16:21:34.784 [main] DEBUG org.hibernate.SQL - create table tb_role (id integer not null auto_increment, create_time datetime, description varchar(255), name varchar(255), role_key varchar(255), status integer, update_time datetime, primary key (id))
+2018-02-02 16:21:34.874 [main] DEBUG org.hibernate.SQL - create table tb_role_resource (role_id integer not null, resource_id integer not null, primary key (role_id, resource_id))
+2018-02-02 16:21:34.969 [main] DEBUG org.hibernate.SQL - create table tb_user (id integer not null auto_increment, address varchar(255), birthday datetime, create_time datetime, delete_status integer, description varchar(255), email varchar(255), locked integer, nick_name varchar(255), password varchar(255), sex integer, telephone varchar(255), update_time datetime, user_name varchar(255), primary key (id))
+2018-02-02 16:21:35.066 [main] DEBUG org.hibernate.SQL - create table tb_user_role (user_id integer not null, role_id integer not null, primary key (user_id, role_id))
+2018-02-02 16:21:35.214 [main] DEBUG org.hibernate.SQL - alter table tb_resource add constraint FKf5ra2gn0xedeida2op8097sr5 foreign key (parent_id) references tb_resource (id)
+2018-02-02 16:21:35.430 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK868kc8iic48ilv5npa80ut6qo foreign key (resource_id) references tb_resource (id)
+2018-02-02 16:21:35.677 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK7ffc7h6obqxflhj1aq1mk20jk foreign key (role_id) references tb_role (id)
+2018-02-02 16:21:35.908 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FKea2ootw6b6bb0xt3ptl28bymv foreign key (role_id) references tb_role (id)
+2018-02-02 16:21:36.157 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FK7vn3h53d0tqdimm8cp45gc0kl foreign key (user_id) references tb_user (id)
+2018-02-02 16:21:37.207 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-02-02 16:21:37.208 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-02-02 16:21:37.285 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-02-02 16:21:38.602 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用刷新
+2018-02-02 16:21:38.611 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:21:38.621 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-80]
+2018-02-02 16:21:38.625 [main] ERROR org.apache.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler [http-nio-80]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+2018-02-02 16:21:38.626 [main] ERROR org.apache.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at net.sppan.base.Application.main(Application.java:17)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	... 14 common frames omitted
+2018-02-02 16:21:38.632 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-80"]
+2018-02-02 16:21:38.632 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2018-02-02 16:21:38.638 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-02-02 16:21:38.639 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2018-02-02 16:21:38.639 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-80"]
+2018-02-02 16:21:38.645 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2018-02-02 16:21:38.648 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用关闭
+2018-02-02 16:21:38.655 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-02-02 16:25:46.798 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量
+2018-02-02 16:25:46.879 [main] INFO  net.sppan.base.Application - Starting Application on DESKTOP-UD9MKED with PID 141832 (F:\OtherProjectNew\springboot_authority\target\classes started by 123456 in F:\OtherProjectNew\springboot_authority)
+2018-02-02 16:25:46.879 [main] DEBUG net.sppan.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-02-02 16:25:46.879 [main] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2018-02-02 16:25:46.923 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 初始化环境变量完成
+2018-02-02 16:25:47.023 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-02-02 16:25:48.554 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2018-02-02 16:25:48.572 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2018-02-02 16:25:48.572 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2018-02-02 16:25:48.573 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\iamwa\AppData\Local\Temp\
+2018-02-02 16:25:48.586 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2018-02-02 16:25:48.595 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2018-02-02 16:25:48.750 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:25:48.750 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:25:48.750 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:25:48.756 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2018-02-02 16:25:48.756 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2018-02-02 16:25:48.756 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2018-02-02 16:25:48.757 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2018-02-02 16:25:48.767 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\iamwa\AppData\Local\Temp
+2018-02-02 16:25:48.767 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\iamwa\AppData\Local\Temp\.ehcache-diskstore.lock
+2018-02-02 16:25:48.768 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2018-02-02 16:25:48.769 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:25:48.775 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\iamwa\AppData\Local\Temp\resource%0043ache.index
+2018-02-02 16:25:48.776 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2018-02-02 16:25:48.814 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2018-02-02 16:25:48.814 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2018-02-02 16:25:48.815 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2018-02-02 16:25:48.815 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2018-02-02 16:25:48.815 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2018-02-02 16:25:48.826 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2018-02-02 16:25:48.826 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2018-02-02 16:25:48.827 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2018-02-02 16:25:48.827 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2018-02-02 16:25:48.827 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2018-02-02 16:25:48.827 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2018-02-02 16:25:48.828 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2018-02-02 16:25:48.828 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2018-02-02 16:25:48.832 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2018-02-02 16:25:48.832 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2018-02-02 16:25:48.832 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2018-02-02 16:25:49.497 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-02-02 16:25:50.207 [main] DEBUG org.hibernate.SQL - alter table tb_resource drop foreign key FKf5ra2gn0xedeida2op8097sr5
+2018-02-02 16:25:50.239 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK868kc8iic48ilv5npa80ut6qo
+2018-02-02 16:25:50.265 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK7ffc7h6obqxflhj1aq1mk20jk
+2018-02-02 16:25:50.293 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FKea2ootw6b6bb0xt3ptl28bymv
+2018-02-02 16:25:50.319 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FK7vn3h53d0tqdimm8cp45gc0kl
+2018-02-02 16:25:50.347 [main] DEBUG org.hibernate.SQL - drop table if exists tb_resource
+2018-02-02 16:25:50.387 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role
+2018-02-02 16:25:50.428 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role_resource
+2018-02-02 16:25:50.469 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user
+2018-02-02 16:25:50.509 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user_role
+2018-02-02 16:25:50.550 [main] DEBUG org.hibernate.SQL - create table tb_resource (id integer not null auto_increment, create_time datetime, description varchar(255), icon varchar(255), is_hide integer, level integer, name varchar(255), sort integer, source_key varchar(255), source_url varchar(255), type integer, update_time datetime, parent_id integer, primary key (id))
+2018-02-02 16:25:50.645 [main] DEBUG org.hibernate.SQL - create table tb_role (id integer not null auto_increment, create_time datetime, description varchar(255), name varchar(255), role_key varchar(255), status integer, update_time datetime, primary key (id))
+2018-02-02 16:25:50.757 [main] DEBUG org.hibernate.SQL - create table tb_role_resource (role_id integer not null, resource_id integer not null, primary key (role_id, resource_id))
+2018-02-02 16:25:50.854 [main] DEBUG org.hibernate.SQL - create table tb_user (id integer not null auto_increment, address varchar(255), birthday datetime, create_time datetime, delete_status integer, description varchar(255), email varchar(255), locked integer, nick_name varchar(255), password varchar(255), sex integer, telephone varchar(255), update_time datetime, user_name varchar(255), primary key (id))
+2018-02-02 16:25:50.955 [main] DEBUG org.hibernate.SQL - create table tb_user_role (user_id integer not null, role_id integer not null, primary key (user_id, role_id))
+2018-02-02 16:25:51.050 [main] DEBUG org.hibernate.SQL - alter table tb_resource add constraint FKf5ra2gn0xedeida2op8097sr5 foreign key (parent_id) references tb_resource (id)
+2018-02-02 16:25:51.306 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK868kc8iic48ilv5npa80ut6qo foreign key (resource_id) references tb_resource (id)
+2018-02-02 16:25:51.540 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK7ffc7h6obqxflhj1aq1mk20jk foreign key (role_id) references tb_role (id)
+2018-02-02 16:25:51.771 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FKea2ootw6b6bb0xt3ptl28bymv foreign key (role_id) references tb_role (id)
+2018-02-02 16:25:52.003 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FK7vn3h53d0tqdimm8cp45gc0kl foreign key (user_id) references tb_user (id)
+2018-02-02 16:25:53.177 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-02-02 16:25:53.178 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-02-02 16:25:53.277 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-02-02 16:25:56.199 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用刷新
+2018-02-02 16:25:56.208 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2018-02-02 16:25:56.217 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9090]
+2018-02-02 16:25:56.230 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-02-02 16:25:56.262 [main] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用已启动完成
+2018-02-02 16:25:56.262 [main] INFO  net.sppan.base.Application - Started Application in 9.757 seconds (JVM running for 11.035)
+2018-02-02 16:25:56.262 [main] DEBUG net.sppan.base.Application - 启动成功
+2018-02-02 16:26:11.686 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-02 16:26:11.931 [http-nio-9090-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_
+2018-02-02 16:26:12.000 [http-nio-9090-exec-1] DEBUG net.sppan.base.controller.web.IndexController - [net.sppan.base.entity.User@837189b]
+2018-02-02 16:26:28.938 [http-nio-9090-exec-10] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:29.097 [http-nio-9090-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:29.101 [http-nio-9090-exec-6] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:29.131 [http-nio-9090-exec-6] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:29.138 [http-nio-9090-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:29.141 [http-nio-9090-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:34.954 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:34.956 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:34.957 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:34.963 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:34.967 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:34.970 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:35.117 [http-nio-9090-exec-5] DEBUG org.hibernate.SQL - select count(user0_.id) as col_0_0_ from tb_user user0_
+2018-02-02 16:26:35.120 [http-nio-9090-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ limit ?
+2018-02-02 16:26:35.175 [http-nio-9090-exec-5] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:35.181 [http-nio-9090-exec-5] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:37.737 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:37.739 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:37.741 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:37.745 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:37.748 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:37.751 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:37.857 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - select count(role0_.id) as col_0_0_ from tb_role role0_
+2018-02-02 16:26:37.858 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - select role0_.id as id1_1_, role0_.create_time as create_t2_1_, role0_.description as descript3_1_, role0_.name as name4_1_, role0_.role_key as role_key5_1_, role0_.status as status6_1_, role0_.update_time as update_t7_1_ from tb_role role0_ limit ?
+2018-02-02 16:26:37.860 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:38.225 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:38.227 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:38.228 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:38.232 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:38.396 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:38.399 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:38.474 [http-nio-9090-exec-3] DEBUG org.hibernate.SQL - select count(user0_.id) as col_0_0_ from tb_user user0_
+2018-02-02 16:26:38.476 [http-nio-9090-exec-3] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ limit ?
+2018-02-02 16:26:38.479 [http-nio-9090-exec-3] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:38.480 [http-nio-9090-exec-3] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:38.757 [http-nio-9090-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:38.759 [http-nio-9090-exec-4] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:38.760 [http-nio-9090-exec-4] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:38.840 [http-nio-9090-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:38.843 [http-nio-9090-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:38.845 [http-nio-9090-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:38.921 [http-nio-9090-exec-2] DEBUG org.hibernate.SQL - select count(resource0_.id) as col_0_0_ from tb_resource resource0_
+2018-02-02 16:26:38.922 [http-nio-9090-exec-2] DEBUG org.hibernate.SQL - select resource0_.id as id1_0_, resource0_.create_time as create_t2_0_, resource0_.description as descript3_0_, resource0_.icon as icon4_0_, resource0_.is_hide as is_hide5_0_, resource0_.level as level6_0_, resource0_.name as name7_0_, resource0_.parent_id as parent_13_0_, resource0_.sort as sort8_0_, resource0_.source_key as source_k9_0_, resource0_.source_url as source_10_0_, resource0_.type as type11_0_, resource0_.update_time as update_12_0_ from tb_resource resource0_ limit ?
+2018-02-02 16:26:41.721 [http-nio-9090-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:41.723 [http-nio-9090-exec-1] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:41.724 [http-nio-9090-exec-1] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:41.728 [http-nio-9090-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:41.731 [http-nio-9090-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:41.733 [http-nio-9090-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:41.795 [http-nio-9090-exec-10] DEBUG org.hibernate.SQL - select count(user0_.id) as col_0_0_ from tb_user user0_
+2018-02-02 16:26:41.796 [http-nio-9090-exec-10] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ limit ?
+2018-02-02 16:26:41.798 [http-nio-9090-exec-10] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:41.799 [http-nio-9090-exec-10] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:42.143 [http-nio-9090-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:42.145 [http-nio-9090-exec-5] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:42.146 [http-nio-9090-exec-5] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:42.149 [http-nio-9090-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:42.152 [http-nio-9090-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:42.155 [http-nio-9090-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:42.209 [http-nio-9090-exec-6] DEBUG org.hibernate.SQL - select count(role0_.id) as col_0_0_ from tb_role role0_
+2018-02-02 16:26:42.210 [http-nio-9090-exec-6] DEBUG org.hibernate.SQL - select role0_.id as id1_1_, role0_.create_time as create_t2_1_, role0_.description as descript3_1_, role0_.name as name4_1_, role0_.role_key as role_key5_1_, role0_.status as status6_1_, role0_.update_time as update_t7_1_ from tb_role role0_ limit ?
+2018-02-02 16:26:42.212 [http-nio-9090-exec-6] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:43.134 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:43.136 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2018-02-02 16:26:43.137 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2018-02-02 16:26:43.142 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:43.144 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:43.146 [http-nio-9090-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2018-02-02 16:26:43.204 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - select count(resource0_.id) as col_0_0_ from tb_resource resource0_
+2018-02-02 16:26:43.205 [http-nio-9090-exec-7] DEBUG org.hibernate.SQL - select resource0_.id as id1_0_, resource0_.create_time as create_t2_0_, resource0_.description as descript3_0_, resource0_.icon as icon4_0_, resource0_.is_hide as is_hide5_0_, resource0_.level as level6_0_, resource0_.name as name7_0_, resource0_.parent_id as parent_13_0_, resource0_.sort as sort8_0_, resource0_.source_key as source_k9_0_, resource0_.source_url as source_10_0_, resource0_.type as type11_0_, resource0_.update_time as update_12_0_ from tb_resource resource0_ limit ?
+2018-02-02 16:26:45.232 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select count(resource0_.id) as col_0_0_ from tb_resource resource0_
+2018-02-02 16:26:45.232 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - select resource0_.id as id1_0_, resource0_.create_time as create_t2_0_, resource0_.description as descript3_0_, resource0_.icon as icon4_0_, resource0_.is_hide as is_hide5_0_, resource0_.level as level6_0_, resource0_.name as name7_0_, resource0_.parent_id as parent_13_0_, resource0_.sort as sort8_0_, resource0_.source_key as source_k9_0_, resource0_.source_url as source_10_0_, resource0_.type as type11_0_, resource0_.update_time as update_12_0_ from tb_resource resource0_ limit ?, ?
